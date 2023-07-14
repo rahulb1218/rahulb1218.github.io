@@ -1,0 +1,73 @@
+body {
+    background-color: #c2b8aa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  h1{
+    font-weight: bolder;
+  }
+  p{
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .menubar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+
+  }
+  .menubar a{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    white-space: nowrap;
+    font-weight: bolder;
+  }
+  .menubar a:hover{
+    text-decoration: underline;
+  }
+  #myname{
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  .hbox{
+    display:flex;
+    flex-direction: row;
+  }
+  .mypic{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    min-width: 420px;
+    width: 10000px;
+    margin-right: 50px;
+  }
+  .mypic img{
+    height: 400px;
+  }
+  .nameandpic{
+    margin-top: -310px;
+    margin-bottom: 10px;
+    min-height: 400px;
+    align-items: end;
+    height: 100vh;
+  }
+  #summary{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  #summary p{
+    font-size: 30px;
+    width: 600px;
+  }
+  
